@@ -1,0 +1,18 @@
+{
+  "name": "atslack-ng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --exec 'node ./src/app.js'",
+    "test": "nodemon ./test/test.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apigrate/autotask-restapi": "^0.4.0",
+    "@slack/bolt": "^3.5.0",
+    "nodemon": "^2.0.12"
+  }
+}
